@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It sets up a file for git intreaction instructions. 
+This allows git to connect with the files in the directory and manipulate them
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory - The area we are operating on. All files don't necessarily have to be a part of the same repository and some might not be touched by Git
+
+Staging area - the place were a change is first undertaken but before it is comitted to the repository
+
+Repository - the area that stores all git files.
+
+The value of separating these out is the ability to be deliberate with individual files and treat them in a variety of different ways
