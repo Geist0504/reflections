@@ -13,3 +13,30 @@ Staging area - the place were a change is first undertaken but before it is comi
 Repository - the area that stores all git files.
 
 The value of separating these out is the ability to be deliberate with individual files and treat them in a variety of different ways
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can run diff to pop the changes that had been made and ensure they are restricted to one logical change
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when experimenting with different features and versions. This would allow you to keep new development separate from established work
+
+
+How do the diagrams help you visualize the branch structure?
+
+The visualization puts the placements and relationships in context
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is the combination of changes to each branch. We represent it to show they are now one file which can access both history paths
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro - much quicker, comprehensively pops conflicts
+Cons - can't resolve as many conflicts on it's own
