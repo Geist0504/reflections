@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I think you would want to do so whenever you wanted public access for collaboration/viewing/using purposes. Local should be reserved for more private or confidential uses
